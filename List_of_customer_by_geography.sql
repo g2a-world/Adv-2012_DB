@@ -1,9 +1,8 @@
 ﻿/****** Script for SelectTopNRows command from SSMS  ******/
 SELECT [CustomerKey]
       ,g.[GeographyKey]
-	  ,g.EnglishCountryRegionName
-	  ,g.StateProvinceName
-
+      ,g.EnglishCountryRegionName
+      ,g.StateProvinceName
       ,[FirstName]
       ,[LastName]
       ,[BirthDate]
